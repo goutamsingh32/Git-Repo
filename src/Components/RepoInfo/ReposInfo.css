@@ -1,0 +1,58 @@
+body {
+  font-family: "Parisienne", cursive;
+}
+.search-bar {
+  margin-top: 4%;
+}
+.RepoInfo {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+}
+.repos {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 450px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1% 2%;
+}
+
+.repo-title {
+  margin: 1px;
+}
+.repo-title a {
+  color: black;
+  text-decoration: none;
+}
+.repo-description {
+  font-size: 1.1em;
+  margin: 1px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  align-self: center;
+}
+.lang {
+  display: flex;
+  color: whitesmoke;
+  background-color: rgb(151, 151, 151);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin: 2px 8px;
+  border-radius: 5%;
+  align-self: flex-end;
+}

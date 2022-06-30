@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+html {
+  box-sizing: border-box;
+}
+a,
+a:hover,
+a:visited,
+a:active {
+  color: #fff;
+}

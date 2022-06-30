@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-content: center;
+}
+.landing img {
+  width: 30%;
+  align-self: center;
+}
+
+.card {
+  padding: 2.5rem;
+  box-shadow: 2px 3px #dad1d6;
+  border-radius: 5%;
+}
+.card h2 {
+  margin-bottom: 4%;
+}
+
+.btn {
+  float: right;
+  margin-top: 7rem;
+}
+.form-control {
+  margin-bottom: 3%;
+}
